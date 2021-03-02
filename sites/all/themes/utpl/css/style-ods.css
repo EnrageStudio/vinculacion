@@ -1,0 +1,289 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 03-sep-2019, 09:47:34
+    Author     : axfernd
+    Credit: 
+*/
+
+.node-type-contenido-para-ods .page-title {
+    /** Oculta el Title en los ODS **/
+    display: none;
+}
+
+.field-name-field-descripcionods {
+    width: 45%;
+    padding: 2em;
+}
+
+.node-type-contenido-para-ods .field-name-field-img {
+    width: 50%;
+}
+
+/*
+    Node type contenido para observatorios
+*/
+
+.node-type-contenido-para-observatorios .page-title {
+    display: none;
+}
+
+.node-type-contenido-para-observatorios .header-internas {
+    position: absolute !important;
+    background: linear-gradient(#656565, transparent) !important;
+}
+
+.node-type-contenido-para-observatorios .content .submenu {
+    display: block !important;
+}
+
+.node-type-contenido-para-observatorios .breadcrumbs {
+    display: none;
+}
+
+.node-type-contenido-para-observatorios .header-top {
+    display: none;
+}
+
+.node-type-contenido-para-observatorios .tabs-wrapper {
+    /* Posiciona los menus de administracion sobre el contenido*/
+    position: relative;
+    z-index: 1000;
+}
+
+
+.node-type-contenido-para-observatorios .img-header-background {
+    /* Header */
+    height: 45em;
+    margin: 0 auto 0 auto;
+}
+
+.node-type-contenido-para-observatorios .img-header-background img {
+    /* Header Img*/
+    object-fit: cover;
+    height: 45em;
+}
+
+/*
+    Estilos para Seccion de Quienes Somos
+*/
+.node-type-contenido-para-observatorios #quienessomos {
+    background: url("/sites/default/files/observatorios/bg-observatorios-1.png") no-repeat scroll;
+    background-size: cover;
+}
+
+.node-type-contenido-para-observatorios #quienessomos .field-items {
+    height: 35em;
+}
+
+
+.content-observ {
+    position: relative;
+}
+
+.content-observ .flex {
+    width: 100%;
+    
+}
+
+
+.node-type-contenido-para-observatorios #quienessomos .position-nav {
+    position: absolute;
+    bottom: 18%;
+    right: 10%;
+}
+
+.node-type-contenido-para-observatorios #quienessomos .field-items {
+    position: relative;
+}
+
+.img-quienessomos {
+    object-fit: cover;
+    height: -webkit-fill-available;
+}
+
+.item-quienessomos {
+    justify-content: end !important;
+}
+
+.hide-scroll::-webkit-scrollbar {
+    display: none;
+}
+
+#quienessomos .field-descripcion-quienessomos h2 {
+    font-size: 20pt !important;
+}
+
+/*
+    Estilos del Equipo
+*/
+
+.img-border {
+    max-width: 100px;
+    max-height: 100px;
+    min-width: 5em;
+    min-height: 5em;
+    border-radius: 50em;
+    border: 2px solid #eaab00;
+}
+
+.node-type-contenido-para-observatorios .breadcrumb a {
+    text-transform: initial !important;
+}
+
+.node-type-contenido-para-observatorios .carrusel-contenido h1 {
+    font-size: 30pt !important;
+}
+
+.node-type-contenido-para-observatorios .carrusel-contenido h2 {
+    background: white;
+    font-size: 40pt;
+}
+
+.field-img-5 {
+    width: 40%;
+    height: 20em;
+}
+
+.node-type-contenido-para-observatorios .contactos>.field-items>.field-item {
+    width: 25% !important;
+}
+
+.img-idInvestigador {
+    /* Tamanio de los iconos de los idInvestigador     */
+    width: 40px !important;
+    height: auto !important;
+}
+
+
+.block-coordinador {
+    width: 100%;
+    flex: 1 0 100% !important;
+    order: -1 !important;
+}
+.w-100 {
+    width: 100%;
+    padding-top: 2em;
+}
+/*
+    max-width: fit-content;
+    Novedades observatorio 
+    
+*/
+.node-type-contenido-para-observatorios #novedades {
+    background: rgb(231, 231, 231);
+}
+
+.node-type-contenido-para-observatorios #novedades .field-item {
+    text-align: center;
+    width: 45%;
+    padding: 7rem 0;
+}
+
+.node-type-contenido-para-observatorios #novedades .field-items {
+    height: 100vh !important;
+    justify-content: initial !important;
+    place-content: center;
+}
+
+.font-size-title {
+    font-size: 21pt !important;
+}
+
+.flex-nowrap-auto {
+    /* Permite poner los contenedores hijos en horizontal infinito dentro del contenedor padre */
+    flex-flow: nowrap !important;
+    overflow: auto !important;
+}
+
+.img-cover-novedades {
+    object-fit: cover;
+    height: 8em;
+}
+
+.wrapper-noticias::-webkit-scrollbar {
+    display: none;
+}
+
+.node-type-contenido-para-observatorios #novedades .noticias .wrapper-noticias>div {
+    min-width: 19rem;
+    width: 19rem !important;
+    background: white !important;
+}
+
+.node-type-contenido-para-observatorios #novedades .overflow-blur {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    background: linear-gradient(-90deg, rgb(231, 231, 231), rgba(231, 231, 231, .4));
+    width: 1.3em;
+}
+
+.hide {
+    display: none;
+}
+
+.node-type-contenido-para-observatorios .noticias p {
+    font-size: 16pt;
+}
+
+.node-type-contenido-para-observatorios #novedades .position-nav {
+    position: absolute;
+    bottom: 3%;
+    right: 1%;
+}
+.item-view-3 {
+    flex-flow: wrap !important;
+    justify-content: center !important;
+    overflow: initial !important;
+}
+/* 
+    ODS Relacionadas 
+*/
+.node-type-contenido-para-observatorios #ods-relacionados {
+    background: url("/sites/default/files/observatorios/bg-observatorios-2.png") no-repeat scroll;
+    background-size: cover;
+}
+
+/*
+    Page RSS Novedades
+*/
+.field-name-field-imagen-obsv-novedades {
+    width: 50%;
+}
+
+.field-name-field-descripcion-novedades {
+    width: 45%;
+}
+
+/*
+    Observatorio ODS relacionados
+*/
+.node-type-contenido-para-observatorios .bean-contenido-con-bloque-de-imagenes .flexb>.field-items {
+    padding: 3em 0;
+}
+
+.node-type-contenido-para-observatorios .bean-contenido-con-bloque-de-imagenes .flexb>.field-items>.field-item {
+    width: 11%;
+}
+
+.field-descripcion-ods-relac {
+    width: 45%;
+    color: white;
+}
+.field-descripcion-ods-relac p{
+    color: white;
+}
+.field-img-ods-relac {
+    width: 50%;
+}
+.field-img-ods-relac img {
+    width: 190px;
+}
+.field-img-ods-relac .flex{
+    justify-content: space-evenly;
+}

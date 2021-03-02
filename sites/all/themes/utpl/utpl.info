@@ -1,0 +1,61 @@
+name = UTPL
+description = UTPL
+core = 7.x
+engine = phptemplate
+
+; STYLESHEETS
+;----------------------------------------------------
+stylesheets[all][] = css/style.css
+stylesheets[all][] = css/media.css
+stylesheets[all][] = css/investigacion.css
+stylesheets[all][] = css/style-ods.css
+stylesheets[all][] = css/media-ods.css
+
+; SCRIPTS
+;----------------------------------------------------
+scripts[] = js/flexslider-min.js
+scripts[] = js/slide.js
+scripts[] = js/menu.js
+scripts[] = js/gototop.js
+scripts[] = js/ancla.js
+scripts[] = js/jquery.twbsPagination.min.js
+scripts[] = js/pagination.js
+scripts[] = js/paginationevents.js
+scripts[] = js/effects.js
+scripts[] = js/observatorios.js
+
+; REGIONS
+;----------------------------------------------------
+
+regions[header_top]     = Header Top
+regions[search_top]     = Search Top
+regions[carousel]       = Carousel
+regions[submenu]        = Submenu
+regions[seccions]       = Seccions
+regions[sidebar_first]  = First Sidebar
+regions[sidebar_second] = Second Sidebar
+regions[content_top]    = Content Top
+regions[content]        = Content
+
+regions[contact]        = contact
+regions[footer]         = Footer
+
+; FEATURES
+;----------------------------------------------------
+features[] = logo
+features[] = name
+features[] = slogan
+features[] = node_user_picture
+features[] = comment_user_picture
+features[] = comment_user_verification
+features[] = favicon
+features[] = main_menu
+features[] = secondary_menu
+
+; SETTINGS
+;----------------------------------------------------
+settings[breadcrumbs]  = 1
+settings[clear_registry] = 1
+
+
+

@@ -1,0 +1,552 @@
+
+/*home page*/
+#impactoinvestigativo{
+    background-size: initial!important;
+    background-position: left!important;  
+}
+#impactoinvestigativo .field-items{
+    margin-left:40%;
+}
+#impactoinvestigativo h2{
+    text-align: left;
+}
+#impactoinvestigativo h2:after{
+    position: initial;
+}
+#impactoinvestigativo .boton .field-items {
+    text-align: left;
+}
+#culturacientifica .field-items{
+    width: 40%;
+}
+#culturacientifica h2{
+    text-align: left;
+}
+#culturacientifica h2:after{
+    position: initial;
+    background-color: white;
+}
+#culturacientifica .boton .field-items {
+    text-align: left;
+}
+#smartlandhome .field-items{
+    margin-left: 40%;
+}
+
+#smartlandhome{
+    background-size: initial!important;
+    background-position: left!important;  
+}
+#smartlandhome h2{
+    text-align: left;
+}
+#smartlandhome h2:after{
+    position: initial;
+}
+#smartlandhome .boton .field-items {
+    text-align: left;
+}
+#smartlandhome .contenido-bg .field-item{
+    text-align: center;
+}
+#smartlandhome .contenido-bg .field-item p{
+    color:#003f72;
+}
+/*smartland*/
+#gestioninteligente{
+    background-size: initial!important;
+    background-position: left!important;
+}
+#gestioninteligente h2{
+    text-align: left;
+}
+#gestioninteligente h2:after{
+    position: initial!important;
+}
+#gestioninteligente .layout-1 > .field-items{
+    width: 65%;
+    margin-left: 35%;
+}
+
+#calidaddevida .contenido-bg{
+    width: 100%!important;
+}
+
+#calidaddevida .contenido-bg p{
+    text-align: center;
+}
+#calidaddevida .contenido-bg .material-icons{
+    font-size: 55px;
+}
+#calidaddevida .imagen-contenido h4{
+    font-size: 18pt;
+}
+
+#paquetesdetrabajo{
+    background-size: initial!important;
+    background-position: left!important;
+}
+#paquetesdetrabajo .displaydata{
+    display: none;
+}
+#paquetesdetrabajo .title-bg p{
+    width: 90%;
+}
+#paquetesdetrabajo .layout-1{
+    width: 100%;
+}
+#paquetesdetrabajo .bean-contenido-con-bloque-de-imagenes > .content{
+    display: flex;
+    align-items:  center;
+    width: 90%;
+    margin: auto;
+}
+#paquetesdetrabajo .icons{
+    text-align: right;
+}
+#paquetesdetrabajo .icons .active .material-icons{
+    color: #967101;
+}
+#paquetesdetrabajo .material-icons{
+    font-size: 60px;
+    color:#003f72;
+    cursor: pointer;
+}
+#paquetesdetrabajo .etiqueta{
+    text-align: right;
+    margin-right: 3em;
+    font-size: 2em;
+    color: #737373;
+}
+#paquetesdetrabajo .imagen-contenido h4 {
+    font-size: 15pt;
+    bottom: -2em;
+}
+#paquetesdetrabajo .selected .imagen-contenido  {
+    top:5%;
+}
+#objetivos .contenido-bg .field-item{
+    width: 100%;
+}
+#objetivos .contenido-bg .field-item img{
+    max-width: fit-content;
+}
+
+#smartland{
+    background-size: initial!important;
+    background-position: right!important;
+}
+#smartland h2{
+    text-align: left;
+}
+
+#smartland h3:after{
+    content: none;
+}
+#smartland h2:after{
+    position: initial;
+}
+#smartland .contenido-bg > .field-items{
+    margin-left:5%;
+}
+
+#smartland .contenido-bg > .field-items > .field-item{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    transition: all 0.3s ease;
+    margin:1em 0;
+}
+#smartland .contenido-bg .description{
+    width: 50%;
+    background-color: white;
+    border: 1px solid #ddd;
+    padding: 0.7em;
+    color:#003f72;
+    cursor: pointer;
+}
+#smartland .contenido-bg h3{
+    width: 40%;
+    text-align: center;
+    color:transparent;
+    font-size:2em;
+}
+
+#smartland p{
+    margin:0;
+    padding: 0;    
+}
+#smartland .img{
+    width: 10%;
+}
+#smartland  .img-act{
+    display: none;
+}
+#smartland  .selected .img-act{
+    display: initial;
+}
+#smartland  .selected .img-pass{
+    display: none;
+}
+#smartland  .selected .description{
+    background-color: #eaab00;
+}
+#smartland .selected h3{
+    color:white;
+}
+
+#smartland .selected .material-icons{
+    color:#eaab00;
+}
+
+/*vinculacion*/
+
+#impactovinculacion{
+    background-size: initial!important;
+    background-position-x: right!important;
+    background-position-y: top!important;
+
+}
+#proyectos .field-items{
+    margin-left: 40%;
+}
+
+#proyectos .contenido-bg > .field-items > .field-item{
+    width: 100%;
+    border-bottom: 1px dashed #607688;
+    display: flex;
+    align-items: flex-end;
+    margin: 1em 0;
+}
+
+#proyectos .contenido-bg img{
+    margin-right: 1em;
+}
+
+#proyectos .contenido-bg > .field-items > .odd{
+    margin-left: 10%;
+}
+#proyectos h2{
+    text-align: left;
+    font-size: 20pt;
+
+}
+#proyectos h2:after{
+    position: initial;
+
+}
+#sobreproyectos .flexb > .field-items > .field-item{
+    width: 11%;
+}
+#sobreproyectos .imagen-contenido p{
+    text-align: center;
+    font-size: 20pt;
+}
+#sobreproyectos .field-collection-container .layout-1{
+    width: 100%!important;
+}
+#alianzas{
+    padding-top: 7em;
+}
+#alianzas .flexb > .field-items {
+    width: 80%;
+    margin:auto;
+    background-color: rgba(255, 255, 255, 0.8);
+}
+
+#alianzas .flexb > .field-items > .field-item{
+    width: 80%;
+    margin:auto;
+    padding-top: 2em;
+}
+#alianzas  .boton .field-items {
+    width: 80%;
+    margin: auto;
+    background-color: rgba(255, 255, 255, 0.8);
+    padding-bottom: 2em;
+}
+
+#informedegestion {
+    background-size: 30% 100%!important;
+    background-position-x: 29%!important;
+    background-position-y: top!important;
+    position: relative;
+}
+#informedegestion .boton .field-item{
+    position: absolute;
+    top: 70%;
+    right: 31%;
+}
+#informedegestion .flexb > .field-items > .field-item {
+    width: 45%;
+}
+#proyectosinstitucionales .flexb > .field-items {
+    justify-content: center;
+}
+
+/*investigacion en cifras*/
+
+#sermas .contenido-bg  .field-item{
+    width: 100%;
+}
+#sermas .contenido-bg img{
+    max-width: fit-content;
+}
+#parquecientifico{
+    position: relative;
+}
+#parquecientifico .flexb > .field-items > .odd p{
+    display: inline-flex;
+    margin:0.3em 0;
+}
+#parquecientifico .flexb > .field-items > .odd .number{
+    color: #eaab00;
+    border-bottom: 1px dashed #eaab00;
+    padding: 0 1em;
+    width: 2em;
+    text-align: center;
+}
+#parquecientifico .flexb > .field-items > .odd .description{
+    width: 80%;
+}
+#parquecientifico .boton .field-items {
+    position: absolute;
+    top: 80%;
+    left: 50%;
+}
+#parquecientifico img {
+    display: block;
+}
+
+#serviciocomunidad {
+    background-size: initial!important;
+    background-position: right!important;
+}
+#serviciocomunidad  .field-items{
+    width: 60%;
+    text-align: center;
+}
+#serviciocomunidad h2:after{
+    background-color: white;
+}
+.contact-wrapper{
+    background-image: url(/investigacion/sites/all/themes/utpl/images/bgy.png);
+    background-repeat: no-repeat;
+    background-size: 40% 100%;
+    background-position: right!important;
+}
+.region-contact{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    width: 90%;
+    margin:auto;
+    padding: 2em 0;
+}
+.form-investiga{
+    width: 50%;
+}
+.form-investiga > section{
+    width: 80%;
+}
+.form-investiga h2{
+    display: initial!important;
+}
+.form-investiga fieldset{
+    border:none!important;
+    padding: 0.5em 0;
+    margin: 1em 0;
+    font-size: 15pt;
+    color: #737373;
+}
+.form-investiga legend{
+    display: none!important;
+}
+.form-investiga .webform-submit{
+    padding: 1em;
+    background-color: #eaab00;
+    width: 8em;
+    color: white;
+    font-size: 15pt;
+}
+.tw-investiga{
+    width: 25%;
+}
+.fb-investiga{
+    width: 25%;
+    max-height: 520px;
+    overflow: scroll;
+}
+
+input, textarea{
+    width: 100%;
+    border:none;
+    border:1px solid #ddd;
+    padding: 0.2em;
+}
+.webform-component-textarea .grippie {
+    border: none!important;
+    background: none!important;
+}
+
+#labprototipos{
+    background-size: initial!important;
+    background-position: bottom!important;
+    background-position-x: left!important;
+}
+
+#labprototipos .layout-1{
+    width: initial;
+}
+#labprototipos .bean-contenido-con-bloque-de-imagenes > .content{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 90%;
+    margin:auto;
+}
+
+#labprototipos  .title-bg{
+    width: 25%;
+}
+
+#labprototipos .field-collection-container{
+    width: 70%;
+}
+
+
+#labprototipos .imagen-contenido h4 {
+    bottom: -2em;
+    font-size: 15pt;
+}
+#block-views-carrusel-interno-block-6{
+    position: relative;
+}
+#block-views-carrusel-interno-block-6 .title{
+    display: none;
+}
+#block-views-carrusel-interno-block-6 .carrusel-contenido{
+    position: absolute;
+    top: 50%;
+    margin-left: 50%;
+    width: 40%;
+}
+
+#block-views-carrusel-interno-block-6 .carrusel-contenido h2{
+    position: relative;
+    top: -4em;
+    color: white;
+    background: none;
+    font-weight: 700;
+    font-size: 24pt;
+}
+#block-views-carrusel-interno-block-6 .carrusel-contenido h2:after{
+    content: " ";
+    display: block;
+    background-color: #eaab00;
+    height: 3px;
+    width: 50px;
+    margin: 10px 0 0;
+}
+#block-views-carrusel-interno-block-6 .carrusel-contenido p{
+    color:white;
+}
+.flexslider{
+    border: none!important;
+    margin: 0!important;
+
+}
+
+#block-views-carrusel-interno-block-6 .flex-control-nav {
+    bottom: 2em;
+
+}
+
+#block-views-carrusel-interno-block-6 .flex-control-nav  a{
+    background: transparent;
+    border:1px solid #eaab00;
+}
+#block-views-carrusel-interno-block-6 .flex-control-nav .flex-active{
+    background-color: #eaab00;
+}
+
+#block-views-carrusel-interno-block-6 a:before {
+    color: white;
+
+}
+
+#gurposinvestigacion .contenido-bg{
+    width: 100%!important;
+}
+#gurposinvestigacion  .imagen-contenido h4{
+    font-size: 18pt;
+}
+
+/*laboratorios*/
+.node-type-laboratorio  .content-sidebar-wrap{
+	width: 100%!important;
+}
+.node-type-laboratorio  .content-sidebar-wrap h1{
+display: none;
+}
+.lab-acercade img{
+	display: block;
+}
+.lab-acercade{
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+.lab-acercade > div{
+width: 48%;
+}
+.lab-atributos img{
+	display: block;
+}
+.lab-atributos > .field-items{
+display: flex;
+    justify-content: center;
+    align-items: stretch;
+    flex-flow: wrap;
+}
+.lab-atributos > .field-items > div{
+width: 25%;
+background-color:#003f72;
+}
+
+.lab-atributos > .field-items > div p{
+    margin-left: 1em;
+    margin-top: 2em;
+    color:white;
+}
+
+.lab-contactos{
+	margin:3em 0;
+}
+
+.lab-contactos h2:after{
+position: relative;
+left: 48%;
+}
+
+
+/* ymtorres 25/01/2019*/
+
+.view-actividades{
+    width: 80%;
+    margin: auto;
+}
+.view-actividades .item-list ul{
+    display: flex;
+    justify-content: center;
+}
+
+.view-actividades .item-list li {
+    max-width: 250px;
+    margin: 0em 1em;
+    list-style: none;
+}
+
+.view-actividades .item-list li h2 {
+  font-size: 20pt;
+}

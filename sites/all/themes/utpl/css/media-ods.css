@@ -1,0 +1,86 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 03-sep-2019, 09:47:34
+    Author     : afleon2
+*/
+@media screen and (min-width: 1500px) {
+
+    .carrusel-contenido h2 {
+        font-size: 25pt;
+    }
+
+}
+
+@media (min-width: 1201px) and (max-width: 1499px) {
+    .node-type-contenido-para-observatorios #quienessomos .field-items {
+        height: 25em;
+    }
+}
+
+@media (min-width: 1101px) and (max-width: 1200px) {}
+
+/* Tablets en horizonal y escritorios normales*/
+@media (min-width: 921px) and (max-width: 1100px) {
+    .field-name-field-descripcionods {
+        width: 100%;
+    }
+
+    .node-type-contenido-para-ods .field-name-field-img {
+        width: 100%;
+    }
+
+    .node-type-contenido-para-observatorios .carrusel-contenido h3 {
+        display: none;
+    }
+
+    .node-type-contenido-para-observatorios .img-header-background {
+        height: auto;
+    }
+
+    .node-type-contenido-para-observatorios .contactos>.field-items>.field-item {
+        width: 31% !important;
+    }
+}
+
+/* Móviles en horizontal o tablets en vertical */
+@media screen and (max-width: 920px) {
+    .field-name-field-descripcionods {
+        width: 100%;
+    }
+
+    .node-type-contenido-para-ods .field-name-field-img {
+        width: 100%;
+    }
+
+    .node-type-contenido-para-observatorios .carrusel-contenido h3 {
+        display: none;
+    }
+
+    .node-type-contenido-para-observatorios .img-header-background {
+        width: 100%;
+        height: auto;
+        margin: 0 auto 0 auto;
+    }
+
+    .node-type-contenido-para-observatorios .contactos>.field-items>.field-item {
+        width: 31% !important;
+    }
+    #ods-relacionados > .blocks > .flex .field-descripcion-ods-relac{
+      width: 100%
+    }
+    #ods-relacionados > .blocks > .flex .field-img-ods-relac{
+        width: 100%
+      }
+
+}
+
+/*Móviles en vertical */
+@media screen and (max-width: 700px) {
+    .node-type-contenido-para-observatorios .contactos>.field-items>.field-item {
+        width: 100% !important;
+    }
+}

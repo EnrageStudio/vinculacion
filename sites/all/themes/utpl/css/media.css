@@ -1,0 +1,524 @@
+@media screen and (min-width: 1900px) {
+
+    p{
+        font-size: 18pt;
+    }
+    .nav-menu ,
+    .nav-submenu{
+        display: flex!important;
+    }
+
+}
+
+
+@media (min-width: 1101px) and (max-width: 1200px) {
+
+    .main-menu .menu a {
+        padding: 1em 0.3em;
+        font-size: 11pt;
+    }
+    .header-top .form-item input {
+        width: 10em;
+    }
+    .top-menu .menu a {
+        padding: 0em 0.3em;
+    }
+    .language-switcher-locale-url li {
+        margin: 0 0.1em;
+    }
+}
+/* Tablets en horizonal y escritorios normales*/
+@media (min-width: 921px) and (max-width: 1100px) { 
+
+
+    .carrusel-contenido h1 {
+        font-size: 30pt;
+    }    
+    .top-menu .menu a {
+        padding: 0 0.2em;
+        font-size: 8pt;
+    }
+    .quote1 {
+        width: 30%;
+    }
+    .page-imagen .boton {
+        top: 40%;
+        left: 7%;
+    }
+
+    .imagen-contenido h4 {
+        bottom: -3em;
+    }
+    .region-search-top{
+        display: none;
+    }
+    .carrusel .carrusel-contenido {
+        width: 90%;
+    }
+    .nav-menu ,
+    .nav-submenu{
+        display: flex!important;
+    }
+    .main-menu .menu a {
+        padding: 1em 0.2em;
+        font-size: 10pt;  
+    }
+    .submenu .nav-submenu a {
+        display: block;
+        padding: 1em 0.3em;
+        font-size: 10pt;
+    }
+    .noticias .wrapper-noticias {
+        justify-content: space-between;
+    }
+    .noticias .wrapper-noticias>div{
+        margin: 0.3em;
+        width: 26%;
+    }
+    .primary-news {
+        width: 0;
+    }
+    .block-contenido h2{
+        padding-bottom: 0.3em;
+        font-size: 24pt;
+    }
+    .block-contenido p{
+        font-size: 14pt;
+    }
+    .block-contenido .boton .field-item {
+        margin-top: 0.3em;
+    }
+}
+
+/* Móviles en horizontal o tablets en vertical */
+@media  screen and (max-width: 920px)  {
+    .modal-video > div {
+        width: 80%;
+    }
+    .sermasedu .title-bg {
+        background-color: #eaab00;
+        position: initial;
+    }
+    .oferta .imagen-mouseover {
+        opacity: 1;
+    }
+    section#investigaciones{
+        background-image: none!important;
+        background-color: #f3f3f3!important;
+    }
+    #investigaciones .title-bg {
+        width: 100%;
+    }
+    #investigaciones .bean-contenido-con-bloque-de-imagenes .field-collection-container {
+        width: 100%;
+    }
+    .top-menu .menu a {
+        font-size: 9pt;
+    }
+    .noticias  .wrapper-noticias>div{
+        width: 22%;
+    } 
+    .culturayperspectivas .bean-contenido-con-background > .content,
+    #investigaciones .bean-contenido-con-bloque-de-imagenes > .content{
+        display: block;
+    }
+    .culturayperspectivas .bean-contenido-con-background > .content > div {
+        width: 100%;
+    }
+    .saludybienestar {
+        background-size: auto 100%!important;
+    }
+    section#universidadesaliadas, section#redesmovilidad {
+        background-image: none!important;
+    }
+    .cooperacion .contenido-bg .field-items {
+        justify-content: center;
+    }
+    .sermas .contenido-bg .odd {
+        width: 95%;
+        margin: auto;
+    }
+    section#universidadglobal {
+        background-image: none!important;
+    }
+    .universidadglobal .odd h3 {
+        color: #003f72;
+    }
+    .universidadglobal .odd p {
+        margin-left: 0;
+        color: #737373!important;
+    }
+    .header-internas {
+        position: relative!important;
+    }
+    .contenido-accordeon > .field-items > .field-item {
+        width: 100%;
+    }
+    .blocks{
+        background-size: auto 100%!important;
+    }
+    .nav-menu ,
+    .nav-submenu{
+        display: none;
+    }
+    .carrusel .carrusel-contenido {
+        width: 80%;
+    }
+    .carrusel-contenido h1 {
+        font-size: 30pt;
+    }
+    header{
+        position: absolute;
+        left: 40%;
+        top: 1em;
+    }
+    .top-menu-right{
+        display: none;
+    }
+    #logo img {
+        width: 100px;
+    }
+    /*temporales*/
+    #toolbar{
+        display: none;
+    }
+    .header-wrapper{
+        padding: 0;
+        background: #003f72;
+    }
+    .main-menu  .title-menu{
+        display: flex;
+        justify-content: flex-start;
+    }
+    .main-menu .menu a:hover, .main-menu .menu a.active, .main-menu .menu a.active-trail {
+        background-color: #4a4848;
+    }
+    .title-menu{
+        display: flex;
+        justify-content: flex-end;
+    }
+    .title-menu .mainmenu-toggle{
+        display: inline-flex;
+        padding: 1em;
+        color:white;
+        background-color: #eaab00;
+    }
+    .title-menu .submenu-toggle{
+        display: inline-flex;
+        padding: 1em;
+        color:white;
+        background-color: #eaab00;
+    }
+    .title-menu a:hover{
+        color:white;
+    }
+    .wrapper {
+        background: rgba(0, 63, 114, 0.7);
+        z-index: 999;
+    }
+    .submenu {
+        border-bottom: none;
+    }
+    .main-menu,.sub-menu {
+        width: 100%;
+    }
+    .main-menu .menu,
+    .sub-menu .menu {
+        display: initial;
+    }
+    .submenu .logo{
+        display: none;
+    }
+    .submenu-navigation{
+        width: 100%;
+    }
+    .sub-menu .field-items {
+        display: block;
+    }
+    .gototop{
+        display: none;
+    } 
+    .bean-contenido-con-bloque-de-imagenes .flexb > .field-items > .field-item{
+        width: 50%;
+    }
+    .region-carousel{
+        padding-top: 2em;
+    }
+    .enlaces-icon  .imagen-mouseover {
+        opacity: 0;
+    } 
+    .imagen-contenido p {
+        display: inherit!important;
+    }
+    .imagen-contenido h4 {
+        top: 0!important;
+    }
+    .imagen-contenido p,
+    .imagen-contenido h4{
+        font-size: 16pt;
+        margin-left: 0;
+        width: 100%;
+    }
+    .imagen-contenido .enlace-imagenes p{
+        background-color: #eaab00;
+        padding: 0.3em;
+        display: initial!important;
+        text-shadow: none!important;
+    }
+    .bean-contenido-con-bloque-de-imagenes img{
+        display: block;
+    }
+    .bean-contenido-con-imagen-izquierda .content, 
+    .bean-contenido-con-imagen-derecha .content ,
+    .bean-contenido-con-video-derecho .content,
+    .bean-contenido-con-video-izquierdo .content
+    {
+        display: block;
+    }
+    .bean-contenido-con-imagen-izquierda .content > div, 
+    .bean-contenido-con-imagen-derecha .content > div,
+    .bean-contenido-con-video-derecho .content > div,
+    .bean-contenido-con-video-izquierdo .content > div{
+        width: 100%;
+    }
+    .sliderblock .flexslider {
+        width: 100%;
+    }
+
+    #footer{
+        display: none;
+    }
+    .quote1 {
+        width: 50%;
+    }
+
+    .block-contenido{
+        padding: 1em 0;
+    }
+    .enlaces-icon img{
+        display: initial!important;
+    }
+    .quote1 p {
+        text-align: center;
+    }
+    .cooperacion .contenido-bg .odd {
+        top: 0%;
+    }
+    .page-contenido,
+    .page-imagen{
+        width:100%;
+    }
+
+    /*home*/
+    section#impactoinvestigativo{
+        background-image: none!important;
+    }
+    #impactoinvestigativo .field-items {
+        margin-left:0%!important; 
+    }
+    #culturacientifica .field-items {
+        width: 100%!important;
+    }
+    #smartlandhome .field-items {
+        margin-left: 0%!important;
+    }
+    .region-contact {
+        display: block!important;
+    }
+    .form-investiga > section {
+        width: 100%!important;
+    }
+    .form-investiga {
+        width: 100%!important;
+    }
+    .tw-investiga {
+        width: 60%!important;
+        margin: auto;
+    }
+    .fb-investiga {
+        width: 60%!important;
+        margin: auto;
+    }
+    /*infraestructura*/
+    #block-views-carrusel-interno-block-6 .carrusel-contenido {
+        margin-left: 10%!important;
+        width: 80%!important;
+    }
+    #labprototipos .bean-contenido-con-bloque-de-imagenes > .content{
+        display: block!important;
+    }
+    #labprototipos .layout-1 {
+        width: 90%!important;
+    }
+    #labprototipos .field-collection-container {
+        width: 100%!important;
+    }
+    /*vinculacion*/
+    section#impactovinculacion,
+    section#informedegestion{
+        background-image: none!important;
+    }
+    #proyectos .field-items {
+        margin-left: 0%!important;
+    }
+    #informedegestion .boton .field-item {
+        position: initial!important;
+    }
+
+    /*investigacion*/
+    #parquecientifico .boton .field-items {
+        position: initial!important;
+    }
+    #serviciocomunidad .field-items {
+        width: 100%!important;
+    }
+      /*smartland*/
+        section#smartland{
+        background-image: none!important;
+    }
+    #smartland .img {
+        width: 10%;
+        margin: auto;
+    }
+    #smartland .contenido-bg .description {
+        width: 80%!important;
+    }
+    #smartland .contenido-bg h3 {
+        width: 100%!important;
+        color:#003f72!important;
+        margin: 0.3em 0 0;
+    }
+    #smartland .contenido-bg > .field-items {
+        margin-left: 0%!important;
+    }
+    section#gestioninteligente{
+        background-image:  none!important;
+    }
+    #gestioninteligente .layout-1 > .field-items {
+        width: 100%!important;
+        margin-left: 0%!important;
+    }
+    #paquetesdetrabajo .bean-contenido-con-bloque-de-imagenes > .content {
+        display: block!important;
+        width: 100%!important;
+    }
+    #paquetesdetrabajo .layout-1 {
+        width: 90%!important;
+    }
+}
+
+/*Móviles en vertical */
+@media screen and (max-width: 700px) {
+
+    .contenido-bg > .field-items > .field-item {
+        display: block!important;
+    }
+    .exit-modal {
+        width: 20%;
+    }
+    h2 {
+        padding-bottom: 0.5em;
+    }
+    .sliderblock .flex-direction-nav {
+        position: initial;
+    }
+
+    .padding3 .blocks,
+    .padding4 .blocks,
+    .padding5 .blocks{
+        padding: 2em 0;
+    }
+
+    .top-menu{
+        width: 100%;
+    }
+    .top-menu .menu a {
+        border-left: none;
+    }
+    /*globals*/
+    h1.page-title {
+        font-size: 30pt;
+        text-align: center;
+    }
+    h2 {
+        font-size: 20pt;
+    }
+    /*servicios*/
+    .noticias .wrapper-noticias>div {
+        width: 100%;
+    }
+    .eventos .field--name-start-date {
+        font-size: 14pt;
+    }
+    .page-imagen{
+        width: 100%;
+        position: relative;
+    }
+    .page-imagen .boton{
+        position: initial!important;
+    }
+    .page-contenido{
+        width: 100%;
+    }
+    /*bloques*/
+    .intercambios .flexb > .field-items > .field-item {
+        width: 100%!important;
+    }
+
+    .flexb > .field-items > .field-item{
+        width: 100%!important;
+    }
+
+    .bean-contenido-con-bloque-de-imagenes .flexb > .field-items > .field-item {
+        width: 100%;
+    }
+
+    /*principal*/ 
+    .carrusel{
+        padding-top: 10px;
+    }
+    .carrusel-contenido h1,
+    .carrusel-contenido h2,
+    .field-name-field-enlace-carrusel {
+        display: none;
+    }
+    .region-footer,
+    .contactanos ,
+    .pluggins .contact,
+    .wrapper-noticias{
+        display:block;
+    }
+
+    .banner .content {
+        display: block;
+        text-align: center;
+    }
+
+
+    /*home*/
+    section#smartlandhome{
+        background-image: none!important;
+    }
+    .tw-investiga {
+        display: none;
+    }
+    .fb-investiga {
+        display: none;
+    }
+    .top-menu ul.menu{
+        display: none!important;
+    }
+
+    /*infraestructura*/
+    #block-views-carrusel-interno-block-6 .carrusel-contenido {
+        display: none;
+    }
+    .banner p {
+        font-size: 18pt;
+    }
+    .boton a {
+        font-size: 12pt!important;
+    }
+    
+  
+}

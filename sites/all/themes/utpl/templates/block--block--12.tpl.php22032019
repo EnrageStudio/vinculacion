@@ -1,0 +1,176 @@
+<?php
+  $var = drupal_get_path_alias(current_path());
+  $acronym = explode("/",$var)[0];
+ ?>
+
+<div id="block-bean-utplnumeros" class="block block-bean padding4 white-title center-title white-text enlaces-icon estadisticas col4 top">
+
+<style>
+  .articulos{
+    font-size: 11pt;
+    padding: 0px 30px;
+  }
+</style>
+
+<h3 class="title" style="color:#003f72; text-align:left; font-size: 26pt; padding: 0px 30px;">Artículos</h3>
+<br><br>
+<?php 
+  $ws = 'https://sica.utpl.edu.ec/api/articles?token=GDWgY4xyaKQ5hxFe&filters&start=0&pagination=20&index=isi,scopus&person='.$acronym;
+  $objects = json_decode(file_get_contents($ws), true)['data'];
+
+ ?>
+<?php if($objects): ?>
+<section id="articulos-isi-scopus" class="articulos" >
+  <h3 style="color:#003f72; text-align:left; font-weight:bold;">ISI/Scopus</h3>
+  <div class="content">
+    
+    <div style="text-align: justify;">
+
+           <?php foreach ($objects as $obj): ?>
+        <p> 
+          <?php if ($obj['link']): ?>
+              <?php print '<a style="color:#003f72;" href="'.$obj['link'].'" target="_blank">'; ?>
+            <?php else: ?>
+              <?php print '<a style="color:#003f72;" href="'.'https://scholar.google.com/scholar?q='.urlencode($obj['title']).'" target="_blank">'; ?>
+          <?php endif ?>
+
+            <?= $obj['title'] ?> 
+
+          </a>
+          <br>
+          <small style="font-size: 0.8em; color:#737373;">
+            <em>año:</em> <strong><?= $obj['year'] ?></strong> - <em>tipo:</em> <strong><?= $obj['type'] ?></strong>
+            <?php if ($obj['link']): ?>
+              <?php print ' - <a style="color:#0000ff;" href="'.$obj['link'].'" target="_blank">'.$obj['link'].'</a>'; ?>
+            <?php endif ?>
+             <?php print ' - <a style="color:#0000ff;" href="'.'https://scholar.google.com/scholar?q='.urlencode($obj['title']).'" target="_blank">Google Schoolar</a>'; ?>
+              <a style="color:#0000ff;"  href="" class="view-more" id="<?= $obj['id']; ?>">- Ver abstract</a>
+          </small>
+        </p>
+        <div>
+          <div class="show-more-<?= $obj['id']; ?>" style="display: none;" ></div>
+       </div>
+      <?php endforeach ?>
+
+    </div>
+
+</div>  
+</section>
+<br>
+<br>	
+<?php endif ?>
+<?php 
+  $ws = 'https://sica.utpl.edu.ec/api/articles?token=GDWgY4xyaKQ5hxFe&filters&start=0&pagination=20&index=latindex_catalogo,latindex_directorio,doaj,dblp,acm,ebsco,ei_compendex,ieee,lilacs,redalyc,scielo&person='.$acronym;
+  $objects = json_decode(file_get_contents($ws), true)['data'];
+ ?>
+<?php if($objects): ?>
+<section id="articulos-regionales" class="articulos" >
+  <h3 style="color:#003f72; text-align:left;font-weight:bold;">Regionales</h3>
+  <div class="content">
+    
+    <div style="text-align: justify;">
+
+           <?php foreach ($objects as $obj): ?>
+        <p> 
+          <?php if ($obj['link']): ?>
+              <?php print '<a style="color:#003f72;" href="'.$obj['link'].'" target="_blank">'; ?>
+            <?php else: ?>
+              <?php print '<a style="color:#003f72;" href="'.'https://scholar.google.com/scholar?q='.urlencode($obj['title']).'" target="_blank">'; ?>
+          <?php endif ?>
+
+            <?= $obj['title'] ?> 
+
+          </a>
+          <br>
+          <small style="font-size: 0.8em; color:#737373;">
+            <em>año:</em> <strong><?= $obj['year'] ?></strong> - <em>tipo:</em> <strong><?= $obj['type'] ?></strong>
+            <?php if ($obj['link']): ?>
+              <?php print ' - <a style="color:#0000ff;" href="'.$obj['link'].'" target="_blank">'.$obj['link'].'</a>'; ?>
+            <?php endif ?>
+             <?php print ' - <a style="color:#0000ff;" href="'.'https://scholar.google.com/scholar?q='.urlencode($obj['title']).'" target="_blank">Google Schoolar</a>'; ?>
+              <a style="color:#0000ff;"  href="" class="view-more" id="<?= $obj['id']; ?>">- Ver abstract</a>
+          </small>
+        </p>
+        <div>
+          <div class="show-more-<?= $obj['id']; ?>" style="display: none;" ></div>
+       </div>
+      <?php endforeach ?>
+
+    </div>
+
+</div>  
+</section>
+<br>
+<br>
+<?php endif ?>
+<?php 
+  $ws = 'https://sica.utpl.edu.ec/api/articles?token=GDWgY4xyaKQ5hxFe&filters&start=0&pagination=20&index=divulgacion_local,divulgacion_nacional,divulgacion_internacional&person='.$acronym;
+  $objects = json_decode(file_get_contents($ws), true)['data'];
+ ?>
+<?php if($objects): ?>
+<section id="articulos-divulgacion" class="articulos" >
+  <h3 style="color:#003f72; text-align:left; font-weight:bold;">Divulgación</h3>
+  <div class="content">
+    
+    <div style="text-align: justify;">
+
+           <?php foreach ($objects as $obj): ?>
+        <p> 
+          <?php if ($obj['link']): ?>
+              <?php print '<a style="color:#003f72;" href="'.$obj['link'].'" target="_blank">'; ?>
+            <?php else: ?>
+              <?php print '<a style="color:#003f72;" href="'.'https://scholar.google.com/scholar?q='.urlencode($obj['title']).'" target="_blank">'; ?>
+          <?php endif ?>
+
+            <?= $obj['title'] ?> 
+
+          </a>
+          <br>
+          <small style="font-size: 0.8em; color:#000;">
+            <em>año:</em> <strong><?= $obj['year'] ?></strong> - <em>tipo:</em> <strong><?= $obj['type'] ?></strong>
+            <?php if ($obj['link']): ?>
+              <?php print ' - <a style="color:#0000ff;" href="'.$obj['link'].'" target="_blank">'.$obj['link'].'</a>'; ?>
+            <?php endif ?>
+             <?php print ' - <a style="color:#0000ff;" href="'.'https://scholar.google.com/scholar?q='.urlencode($obj['title']).'" target="_blank">Google Schoolar</a>'; ?>
+              <a style="color:#0000ff;"  href="" class="view-more" id="<?= $obj['id']; ?>">- Ver abstract</a>
+          </small>
+        </p>
+        <div>
+          <div class="show-more-<?= $obj['id']; ?>" style="display: none;" ></div>
+       </div>
+      <?php endforeach ?>
+
+    </div>
+
+</div>  
+</section>
+<?php endif ?>
+<link rel="stylesheet" href="https://cdn.datatables.net/1.10.19/css/jquery.dataTables.min.css">
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script type="text/javascript">
+$(document).ready(function(){
+    $('.view-more').click(function(ev){
+        ev.preventDefault();
+        var id = $(this).attr('id');
+        var WS = 'https://sica.utpl.edu.ec/api/articles/'+id+'?token=GDWgY4xyaKQ5hxFe';
+        $('.show-more-'+id).toggle(
+          function () {
+            $.ajax({
+                type:'GET',
+                url:WS,
+                dataType: 'jsonp',
+                success:function(result){
+                  console.log(result.abstract);
+                  $('.show-more-'+id).html('<p><small style="color:#000;">'+result.abstract+'</small></p>');
+                }
+            });
+        });
+
+    });
+});
+</script>
+
+
+</div>
